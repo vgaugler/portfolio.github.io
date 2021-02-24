@@ -391,9 +391,11 @@ img{
 		margin-bottom: 0;
 		margin-right: var(--mb-4);
 	}
-	.home__img{
-		width: 457px;
-		bottom: 0%;	
+		.home__img{
+		position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 400px;	
 	}
 
 .about__container, .skills__container{
@@ -422,7 +424,10 @@ column-gap: : 2rem;
     margin-left: auto;
     margin-right: auto;
   }
-  .home__img{
-    right: 10%;
+ .home__img{
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 700px;
   }
 }
