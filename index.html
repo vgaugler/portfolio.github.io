@@ -4,6 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
 	<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 	<title>Mon CV</title>
 </head>
@@ -20,7 +22,7 @@
                         <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
                         <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                        <li class="nav__item"><a href="#cv" class="nav__link">CV</a></li>
                     </ul>
                 </div>
 
@@ -32,34 +34,42 @@
 
 	<main class="l-main">
 		<section class="home bd-grid" id="home">
+			<div class="background-skewed"></div>
                 <div class="home__data">
-                    <h1 class="home__title">Hi,<br>Je suis <span class="home__title-color">Victor</span><br> En reconversion</h1>
+                    <h1 class="home__title"><span class="home__title-color">Victor</span> Gaugler<br> En reconversion </br> Développeur <span class="home__title-color">web</span></h1>
 
                     <a href="#contact" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
-                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
-                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://www.linkedin.com/in/victor-gaugler/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/vgaugler" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="home__img">    
                     <img src="assets/me.png" alt="">
                 </div>
+			
         </section>
 
         <section class="about section" id="about">
         	<h2 class="section-title">About</h2>
         	<div class="about__container bd-grid">
+				<div class="about_circle"></div>
         		<div class="about__img">
         		<img src="assets/about.jpg" alt="">	
 				</div>
         	<div>
-        		<h2 class="about__subtitle"> Je suis Victor</h2>
-        		<p class="about__text">J'ai 30 ans et j'ai exercé le métier d'éducateur spécialisé pendant 10 ans. Il était temps de penser à moi et mes proejts réels. Dévelopeur web c'est le métier que je vise désormais.Est magnam earum rem dolorem corrupti non accusantium quia et dolorem voluptatem. Et voluptas rerum qui ipsa eius qui adipisci iste sit quos dolore! Qui optio natus aut Quis galisum in dignissimos dolorem a magnam omnis aut omnis consequatur. </p>
+        		<h2 class="about__subtitle"> De l'éducatif à la tech</h2>
+        		<p class="about__text">J'ai 30 ans et j'ai exercé le métier d'éducateur spécialisé pendant 10 ans. Il était temps pour moi de prendre un virage à 90°. Développeur web c'est le métier que je vise désormais. 
+					Fort de mes expériences professionelles, je rentre dans cette nouvelle aventure plein de détermination et de motivation. </br></br>
+					La Wild Code School m'a donné de solides bases pour relever les défis du monde de la programmation.</br></br>
+					Mon ancien métier m'a permis d'acquérir de nombreux soft kills : travail d'équipe, rédaction de projet, gestion de conflit, travail en autononomie.
+					Sur cette base je souhaite mettre au service de projet tech, ma créativité, ma technique et ma rigueur !
+				 </p>
         	</div>
         	</div>
+			
         </section>
 
         <section class="skills section" id="skills">
@@ -67,48 +77,28 @@
         	<div class="skills__container bd-grid">
         		<div>
         			<h2 class="skills__subtitle">Profesional Skills</h2>
-        			<p class="skills__text"> J'ai commencé un peu à l'envers découvrant Arduino et son langage de progrmmation inspiré de langage C. Plsu tard je me suis mis à codr des sites avec le sjeune sen HTML et CSS. Mon premeir métier m'a permis d'intégrer beaucoup de soft skills qui me seront utiles dans cette reconversion</p>
+        			<p class="skills__text"> J'ai débuté dans la programmation en découvrant Arduino et son langage inspiré de langage C en menant des ateliers pédagogiques auprès de jeunes en difficultés sociales.</br> 
+						Dans ces ateliers, j'ai appris à créer des objets connectés.</br> J'ai aussi entrepris de coder des sites avec ces mêmes jeunes en HTML/CSS/JS.</p>
         			
-        			<div class="skills__data">
-        				<div class="skills__names">
-        					<i class='bx bxl-html5 skill__icon'></i>
-        					<span class="skills__name">HTML5</span>
-        				</div>
-        				<div class="skills__bar skills__html">
+        			<div class="skills__icon">
+						<i class="fab fa-html5 fab-animated" style="color : #FF5733"></i>
+						<i class="fab fa-css3-alt fab-animated" style="color: #264de4"></i>
+						<i class="fab fa-js-square fab-animated" style="color: #F0DB4F"></i>
+						<i class="fab fa-php fab-animated" style="color: #232531"></i>
+						<i class="fas fa-paint-brush fab-animated"></i>
+					</div>
+					<p class="skills_hovermsg">Hover/Click on icon</p>
+					<div class="skills__slideContainer">
+						<p class="skills__text2" id="textHTML"> J'ai commencé à apprendre HTML par diffèrents tutoriels dont celui de Open Classrooms et de Grafik Art. J'ai appris à structurer mon HTML avec des noms de classes précis. J'accorde de l'importance à ce que les balises sémantiques soient bien définies et que le code passe les validations W3C.</p>
+						<p class="skills__text2" id="textCSS"> CSS Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, saepe accusantium vel quia, perferendis facilis voluptatibus porro architecto dolorum veniam minima explicabo, fuga praesentium a possimus veritatis sequi quo voluptate.</p>
+						<p class="skills__text2" id="textJS"> JS  Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, saepe accusantium vel quia, perferendis facilis voluptatibus porro architecto dolorum veniam minima explicabo, fuga praesentium a possimus veritatis sequi quo voluptate.</p>
+						<p class="skills__text2" id="textPHP"> PHP Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, saepe accusantium vel quia, perferendis facilis voluptatibus porro architecto dolorum veniam minima explicabo, fuga praesentium a possimus veritatis sequi quo voluptate.</p>
+						<p class="skills__text2" id="textPaint"> Paint Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, saepe accusantium vel quia, perferendis facilis voluptatibus porro architecto dolorum veniam minima explicabo, fuga praesentium a possimus veritatis sequi quo voluptate.</p>
 
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-        			</div>
-
-        			<div class="skills__data">
-        				<div class="skills__names">
-        					<i class='bx bxl-css3 skill__icon' ></i>
-        					<span class="skills__name">CSS</span>
-        				</div>
-        				<div class="skills__bar skills__css">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">60%</span>
-                            </div>
-        			</div>
-
-        			<div class="skills__data">
-        				<div class="skills__names">
-        					<i class='bx bxs-paint skill__icon' ></i>
-        					<span class="skills__name">Paint</span>
-        				</div>
-        				<div class="skills__bar skills__paint">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage">95%</span>
-                            </div>
-        			</div>
+					</div>
         		</div>
-        		<div>
+        		
+				<div>
         			<img src="assets/skills.jpg" alt="" class="skills__img">
         		</div>
 
@@ -123,37 +113,128 @@
         	
         	<div class="work__container bd-grid">
         		<div class="work__img">
-        			<img src="assets/css.jpg" alt="">
+        			<img src="assets/sitepsy.jpg" alt="">
+					<div class="work_imgText">
+						<div class="work_boxImgText">
+						<h2>Projet client</h2>
+						<p>Réalisation d'un site en HTML/CSS pour un cabinet de psychologue. Le JS aura été utilisé pour la manipulation du DOM comme le header sticky, le menu burger ou le scroll reveal.</p>
+						<a href="">Voir plus</a>
+					</div>
+					</div>
         		</div>
+
         		<div class="work__img">
-        			<img src="assets/paint.jpg" alt="">
+        			<img src="assets/run.jpg" alt="">
+					<div class="work_imgText">
+						<div class="work_boxImgText">
+						<h2>Projet école</h2>
+						<p>Réalisation d'un site pour une boulangerie. Le JS aura été utilisé pour la manipulation du DOM. Le site comporte un panier réalisé avec du Vanilla JS et Local Storage pour la conservation du panier</p>
+						<a href="">Voir plus</a>
+					</div>
+					</div>
         		</div>
+        	
         		<div class="work__img">
-        			<img src="assets/mao.jpg" alt="">
+        			<img src="assets/fullscreensticky.png" alt="">
+					<div class="work_imgText">
+						<div class="work_boxImgText">
+						<h2>Projet test</h2>
+						<p>Test de fonctionnalité CSS et Vanilla Javascript pour le front end</p>
+						<a href="">Voir plus</a>
+					</div>
+					</div>
         		</div>
+        		
         		<div class="work__img">
         			<img src="assets/arduino.jpg" alt="">
+					<div class="work_imgText">
+						<div class="work_boxImgText">
+						<h2>Projet client</h2>
+						<p>Réalisation d'un site en HTML/CSS pour un cabinet de psychologue. Le JS aura été utilisé poru la manipulation du DOM classique comme le header sticky, le menu burger ou le scroll reveal.</p>
+						<a href="">Voir plus</a>
+					</div>
+					</div>
         		</div>
+        		
         		<div class="work__img">
         			<img src="assets/arduino2.jpg" alt="">
+					<div class="work_imgText">
+						<div class="work_boxImgText">
+						<h2>Projet client</h2>
+						<p>Réalisation d'un site en HTML/CSS pour un cabinet de psychologue. Le JS aura été utilisé poru la manipulation du DOM classique comme le header sticky, le menu burger ou le scroll reveal.</p>
+						<a href="">Voir plus</a>
+					</div>
+					</div>
         		</div>
+        	
         		<div class="work__img">
         			<img src="assets/education.jpg" alt="">
+					<div class="work_imgText">
+						<div class="work_boxImgText">
+						<h2>Projet client</h2>
+						<p>Réalisation d'un site en HTML/CSS pour un cabinet de psychologue. Le JS aura été utilisé poru la manipulation du DOM classique comme le header sticky, le menu burger ou le scroll reveal.</p>
+						<a href="">Voir plus</a>
+					</div>
+					</div>
         		</div>
+        		
         	</div>
         </section>
 
-        <section class="contact section" id="contact">
-        	<h2 class="section-title">Contact</h2>
+        <section class="contact section" id="cv">
+        	<h2 class="section-title">CV</h2>
+			
+        	<div class="box_contact">
+				<div class="contact_box_content" id="card1">
+					<h2><i class="fas fa-user-graduate"></i>
 
-        	<div class="contact__container bd-grid">
-        		<form action="" class="contact__form">
-        			<input type="text" placeholder="Name" class="contact__input">
-        			<input type="mail" placeholder="Email" class="contact__input">
-        			<textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-        			<input type="button" value="Send" class="contact__button button">
-        		</form>
-        	</div>
+						Diplômes et compètences</h2>
+					
+					<ul>
+						<li>en cours  -  Formation Développeur Web à la WCS</li>
+						<li>2014  -  Diplome d'état Educateur Spécialisé</li>
+						<li>2011  -  Diplôme universitaire Musicothérapeute </li>
+						<li> Ma formation et ma pratique d'éducateur m'ont donné des atouts :</li>
+						<li><i class="fas fa-chevron-right"></i> Travail en équipe, gestion de crise, aide à la résolution de conflit, travail de partenariat mais aussi créativité, adaptabilité, pédagogie</li>
+						<li><i class="fas fa-chevron-right"></i> Je suis autodidacte sur beaucoup d'activités , j'ai toujours sur me donner les moyens de parvenir à mes objectifs</li>
+					</ul>	
+				
+					<div class="toggle">
+
+
+
+					</div>
+				</div>
+				<div class="contact_box_content" id="card2">
+					<h2><i class="fas fa-desktop"></i>
+
+						Expériences professionelles</h2>
+					<ul>
+						<li>2014 / 2020 - Educateur Spécialisé en Institut thérapeutique éducatif et pédagogique.</li>
+						<li><i class="fas fa-chevron-right"></i> Mise en place d'atelier créatif et artistiques auprès de jeunes déscolarisés agés de 15 à 20 ans</li>
+						<li><i class="fas fa-chevron-right"></i> Travail partenarial avec les familles, les institutions, les administrations</li>
+						<li>2011 / 2014 - Educateur Spécialisé dans un restaurant social pour personnes sans abri</li>
+						<li><i class="fas fa-chevron-right"></i> Mise en place d'ateliers créatifs pour favoriser l'estime de soi et la réinsertion</li>
+						<li><i class="fas fa-chevron-right"></i> Travail avec tous les partenaires du réseau</li>
+					</ul>
+					<div class="toggle" id="toggle2">
+					</div>
+				</div>
+				<div class="contact_box_content" id="card3">
+					<h2><i class="fas fa-music"></i>
+
+						Interets</h2>
+					<ul>
+						<li><i class="fas fa-chevron-right"></i> Pratique de la musique en groupe, solo / MAO ou musique acoustique</li>
+						<li><i class="fas fa-chevron-right"></i> Composition musique de documentaire, sociétaire à la SACEM</li>
+						<li><i class="fas fa-chevron-right"></i> Pratique de la bijouterie traditionnelle</li>
+						<li><i class="fas fa-chevron-right"></i> Cinéma sud-coréen</li>
+						<li><i class="fas fa-chevron-right"></i> Jeu vidéo PC</li>
+						<li><i class="fas fa-chevron-right"></i> Voyage , Liban</li>
+					</ul>
+					<div class="toggle" id="toggle3"></div>
+				</div>
+			</div>
         </section>
 
 	</main>
@@ -161,11 +242,9 @@
 	  <footer class="footer">
             <p class="footer__title">Victor</p>
             <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-github' ></i></a>
             </div>
-            <p>&#169; 2020 copyright all right reserved</p>
         </footer>
 		
 	</footer>
