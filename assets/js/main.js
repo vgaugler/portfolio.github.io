@@ -90,7 +90,7 @@ window.addEventListener('scroll', function () {
   if (value2 > position2 + 400) {
     about.style.clipPath = 'circle(10% at right 70%)';
   } else {
-    about.style.clipPath = 'circle(50% at right 30%)';
+    about.style.clipPath = 'circle(30% at right 70%)';
   }
 });
 
