@@ -463,6 +463,7 @@ img {
   padding: 15px;
   color: #fff;
   font-size: 13px;
+  z-index: 10;
 }
 .work_boxImgText h2 {
   margin: 0;
@@ -604,7 +605,17 @@ img {
 .footer__icon {
   font-size: 1.5rem;
   color: #fff;
-  margin-bottom: 0 var(--mb-2);
+  margin-bottom: 0 var(--mb-5);
+}
+.contactCV {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.contactermoi {
+  margin: 15px;
 }
 /* media querie */
 @media screen and (min-width: 768px) {

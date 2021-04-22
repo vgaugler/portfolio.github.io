@@ -72,7 +72,7 @@ var btn = document.querySelector('.fa-html5');
 var btn2 = document.querySelector('.fa-css3-alt');
 var btn3 = document.querySelector('.fa-js-square');
 var btn4 = document.querySelector('.fa-php');
-var btn5 = document.querySelector('.fa-paint-brush');
+var btn5 = document.querySelector('.fa-react');
 
 window.addEventListener('scroll', function () {
   let value = document.scrollingElement.scrollTop;
