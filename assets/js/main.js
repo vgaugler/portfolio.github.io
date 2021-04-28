@@ -42,8 +42,6 @@ document.querySelector('#toggle3').onclick = function () {
   contentcv3.classList.toggle('activate');
 };
 
-// change skills_hovermsg selon taille d'écran
-
 /*const msg = document.querySelector('.skills_hovermsg')
 
 if (screen.width < 768){
@@ -68,11 +66,13 @@ var text2 = document.querySelector('#textCSS');
 var text3 = document.querySelector('#textJS');
 var text4 = document.querySelector('#textPHP');
 var text5 = document.querySelector('#textPaint');
+var text6 = document.querySelector('#textNode');
 var btn = document.querySelector('.fa-html5');
 var btn2 = document.querySelector('.fa-css3-alt');
 var btn3 = document.querySelector('.fa-js-square');
 var btn4 = document.querySelector('.fa-php');
 var btn5 = document.querySelector('.fa-react');
+var btn6 = document.querySelector('.fa-node');
 
 window.addEventListener('scroll', function () {
   let value = document.scrollingElement.scrollTop;
@@ -137,7 +137,12 @@ btn5.addEventListener('mouseenter', function () {
 btn5.addEventListener('mouseleave', function () {
   text5.classList.toggle('act');
 });
-
+btn6.addEventListener('mouseenter', function () {
+  text6.classList.toggle('act');
+});
+btn6.addEventListener('mouseleave', function () {
+  text6.classList.toggle('act');
+});
 /*SCROLL HOME*/
 sr.reveal('.home__title', {});
 sr.reveal('.button', { delay: 200 });
