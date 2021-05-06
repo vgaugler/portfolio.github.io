@@ -11,7 +11,7 @@
 :root {
   --body-font: 'Poppins', sans-serif;
   --big-font-size: 2rem;
-  --h2-font-size: 1.25rem;
+  --h2-font-size: 1.8rem;
   --normal-font-size: 0.938rem;
 }
 body::-webkit-scrollbar {
@@ -257,10 +257,20 @@ img {
 }
 .home__title {
   font-size: var(--big-font-size);
+  margin-bottom: var(--mb-2);
+}
+.home__title2 {
+  font-size: var(--h2-font-size);
   margin-bottom: var(--mb-5);
+}
+.devwebTitle {
+  font-size: 2rem;
 }
 .home__title-color {
   color: var(--first-color);
+}
+.button_contact {
+  margin: 15px;
 }
 .home__social {
   display: flex;
@@ -290,6 +300,7 @@ img {
   padding: 0.75rem 2.5rem;
   font-weight: var(--font-semi);
   border-radius: 0.5rem;
+  margin-top: 20px;
 }
 .button:hover {
   box-shadow: 0 10px 36px rgba(0, 0, 0, 0.15);
